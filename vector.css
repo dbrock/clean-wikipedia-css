@@ -98,8 +98,6 @@ body
 { margin-left: 0; }
 #mw-panel #p-lang h5
 { display: none; }
-#mw-panel #p-lang li<<<Language-Selector>>>
-{ display: none; }
 #mw-panel #p-lang li
 { display: inline;
   line-height: 1.125;

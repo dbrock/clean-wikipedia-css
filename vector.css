@@ -214,3 +214,8 @@ body #content
 { column-count: 1 !important;
   -webkit-column-count: 1 !important;
   -moz-column-count: 1 !important; }
+
+#content .mw-geshi
+{ padding: 1ex 1em;
+  border: none;
+  background: none; }

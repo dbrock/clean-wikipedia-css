@@ -147,6 +147,12 @@ body #content
   padding: 1em 2em; }
 #content #toc .toctoggle
 { display: none; }
+#content #toc .toctitle
+{ display: none; }
+#content #toc .tocnumber
+{ margin-right: .3em;
+  color: gray;
+  opacity: .5; }
 
 #content h2
 { border-color: black;

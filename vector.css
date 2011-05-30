@@ -7,6 +7,9 @@ h1, h2, h3, h4, h5, h6,
 #content #bodyContent > p:first-of-type b
 { font-family: "Myriad Pro", Georgia; }
 
+#content p
+{ margin: 1em 0; }
+
 #mw-page-base
 { background: none;
   height: 3em; }

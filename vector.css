@@ -3,8 +3,7 @@ body
   font-family: Georgia; }
 
 h1, h2, h3, h4, h5, h6,
-#mw-head, #mw-panel, #content #toc,
-#content .infobox td, #content .infobox th,
+#mw-head, #mw-panel,
 #content #bodyContent > p:first-of-type b,
 #content #bodyContent > p:nth-of-type(2) b
 { font-family: "Myriad Pro", Georgia; }
@@ -161,13 +160,14 @@ h1, h2, h3, h4, h5, h6
 #content #toc,
 #content .infobox,
 #content .vertical-navbox
-{ border: none;
+{ margin: 1em -12em 2em 2em;
+  padding: .8em 1.2em;
+  font-family: "Myriad Pro", Georgia;
+  line-height: 1.4;
+  border: none;
   background: white;
   border-radius: 16px;
-  -webkit-box-shadow: 0 0 8px #ddd;
-  margin: 1em -12em 2em 2em;
-  padding: .8em 1.2em;
-  line-height: 1.4; }
+  -webkit-box-shadow: 0 0 8px #ddd; }
 
 #content #toc
 { margin: 1.5em 0;

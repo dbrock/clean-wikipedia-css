@@ -158,7 +158,10 @@ h1, h2, h3, h4, h5, h6
 #content #toc
 { margin-top: 1.5em;
   border: none;
-  padding: 1em 2em; }
+  padding: .8em 1.6em;
+  background: white;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 0 8px #ddd; }
 #content #toc #toctitle
 { display: none; }
 #content #toc .tocnumber

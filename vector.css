@@ -160,18 +160,18 @@ h1, h2, h3, h4, h5, h6
 #content #toc,
 #content .infobox,
 #content .vertical-navbox
-{ margin: 1em -12em 2em 2em;
-  padding: .8em 1.2em;
-  font-family: "Myriad Pro", Georgia;
+{ margin: 1em -12em 2em 2em !important;
+  padding: .8em 1.2em !important;
+  font-family: "Myriad Pro", Georgia !important;
   line-height: 1.4;
-  border: none;
-  background: white;
+  border: none !important;
+  background: white !important;
   border-radius: 16px;
   -webkit-box-shadow: 0 0 8px #ddd; }
 
 #content #toc
-{ margin: 1.5em 0;
-  padding: .8em 1.6em; }
+{ margin: 1.5em 0 !important;
+  padding: .8em 1.6em !important; }
 
 #content #toc #toctitle
 { display: none; }

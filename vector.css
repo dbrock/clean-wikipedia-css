@@ -176,6 +176,14 @@ h1, h2, h3, h4, h5, h6
 { margin: 1.5em 0 !important;
   padding: .8em 1.6em !important; }
 
+#content .tright
+{ margin-right: -12em; }
+#content .tleft
+{ margin-left: -12em; }
+#content .thumb
+{ font-family: "Myriad Pro", Georgia;
+  line-height: 1.6; }
+
 #content #toc #toctitle
 { display: none; }
 #content #toc .tocnumber

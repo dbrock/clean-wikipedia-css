@@ -4,7 +4,8 @@ body
 
 h1, h2, h3, h4, h5, h6,
 #mw-head, #mw-panel, #content #toc,
-#content #bodyContent > p:first-of-type b
+#content #bodyContent > p:first-of-type b,
+#content #bodyContent > p:nth-of-type(2) b
 { font-family: "Myriad Pro", Georgia; }
 
 #content p

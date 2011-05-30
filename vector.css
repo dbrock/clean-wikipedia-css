@@ -158,15 +158,21 @@ h1, h2, h3, h4, h5, h6
 #content #bodyContent > p:first-of-type
 { margin-top: 1.125em; }
 
-#content #toc, #content .infobox
+#content #toc,
+#content .infobox,
+#content .vertical-navbox
 { border: none;
   background: white;
   border-radius: 16px;
-  -webkit-box-shadow: 0 0 8px #ddd; }
+  -webkit-box-shadow: 0 0 8px #ddd;
+  margin: 1em -12em 2em 2em;
+  padding: .8em 1.2em;
+  line-height: 1.4; }
 
 #content #toc
-{ margin-top: 1.5em;
+{ margin: 1.5em 0;
   padding: .8em 1.6em; }
+
 #content #toc #toctitle
 { display: none; }
 #content #toc .tocnumber
@@ -175,13 +181,6 @@ h1, h2, h3, h4, h5, h6
   opacity: .5; }
 #content #toc ul ul
 { margin: 0 0 0 1em; }
-
-#content .infobox
-{ margin: 1em -12em 2em 2em;
-  padding: .8em 1.2em; }
-#content .infobox td,
-#content .infobox th
-{ line-height: 1.4; }
 
 #content h2
 { border-color: black;

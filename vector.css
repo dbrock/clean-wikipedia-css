@@ -9,12 +9,6 @@ h1, h2, h3, h4, h5, h6,
 #content #bodyContent > p:nth-of-type(2) b
 { font-family: "Myriad Pro", Georgia; }
 
-#content .infobox td, #content .infobox th
-{ line-height: 1.5; }
-
-#content p
-{ margin: 1em 0; }
-
 #mw-page-base
 { background: none;
   height: 3em; }
@@ -138,13 +132,22 @@ body #content
 
 #content #bodyContent,
 #content p,
-#content ul
+#content ul,
+#content ol,
+#content dd
 { line-height: 1.6; }
+
+#content p
+{ margin: 1em 0; }
 
 h1, h2, h3, h4, h5, h6
 { line-height: 1.2;
   padding-top: 0;
   margin-top: 1em; }
+
+#content .infobox td,
+#content .infobox th
+{ line-height: 1.4; }
 
 #content ul
 { list-style-image: none; }

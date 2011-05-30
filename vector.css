@@ -3,7 +3,7 @@ body
   font-family: Georgia; }
 
 h1, h2, h3, h4, h5, h6,
-#mw-head, #mw-panel, #content #toc
+#mw-head, #mw-panel, #content #toc,
 #content #bodyContent > p:first-of-type b
 { font-family: "Myriad Pro", Georgia; }
 

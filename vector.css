@@ -159,6 +159,8 @@ body #content
 { margin-right: .3em;
   color: gray;
   opacity: .5; }
+#content #toc ul ul
+{ margin: 0 0 0 1em; }
 
 #content h2
 { border-color: black;

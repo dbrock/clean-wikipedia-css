@@ -2,6 +2,11 @@ body
 { background: none;
   font-family: Georgia; }
 
+h1, h2, h3, h4, h5, h6,
+#mw-head, #mw-panel, #content #toc
+#content #bodyContent > p:first-of-type b
+{ font-family: "Myriad Pro", Georgia; }
+
 #mw-page-base
 { background: none;
   height: 3em; }
@@ -102,7 +107,7 @@ body
 { display: inline;
   line-height: 1.125;
   position: relative;
-  top: .5em; }
+  top: .45em; }
 #mw-panel #p-lang :link,
 #mw-panel #p-lang :visited
 { padding: .5em 1em;

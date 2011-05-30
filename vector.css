@@ -153,9 +153,7 @@ body #content
 { margin-top: 1.5em;
   border: none;
   padding: 1em 2em; }
-#content #toc .toctoggle
-{ display: none; }
-#content #toc .toctitle
+#content #toc #toctitle
 { display: none; }
 #content #toc .tocnumber
 { margin-right: .3em;

@@ -250,6 +250,8 @@ h1, h2, h3, h4, h5, h6
 
 #content .thumb
 { margin-bottom: 1em; }
+#content .thumbimage
+{ border: none; }
 #content .thumbinner
 { background: none;
   border: none;

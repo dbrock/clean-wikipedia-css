@@ -152,6 +152,7 @@ h1, h2, h3, h4, h5, h6
 #content .reference
 { font-family: "Myriad Pro", Georgia;
   font-weight: bold;
+  margin-left: .1em;
   opacity: .5;
   -webkit-transition: .5s opacity; }
 #content .reference a span

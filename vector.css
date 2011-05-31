@@ -163,6 +163,19 @@ h1, h2, h3, h4, h5, h6
 #content .reference:hover
 { opacity: 1; }
 
+#content .noprint
+{ font-family: Myriad Pro;
+  margin-left: .2em;
+  opacity: .5;
+  -webkit-transition: .5s opacity; }
+#content .noprint:hover
+{ opacity: 1; }
+#content .noprint i
+{ background: white;
+  margin: 0 -.3em;
+  padding: 0 .3em;
+  position: relative; }
+
 #content #firstHeading
 { border-bottom: none; }
 #content #siteSub

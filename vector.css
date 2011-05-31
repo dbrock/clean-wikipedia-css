@@ -195,6 +195,8 @@ h1, h2, h3, h4, h5, h6
 { font-family: "Myriad Pro", Georgia;
   line-height: 1.6; }
 
+#content #toc ul
+{ margin: 0; }
 #content #toc #toctitle
 { display: none; }
 #content #toc .tocnumber

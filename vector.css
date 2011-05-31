@@ -151,10 +151,13 @@ h1, h2, h3, h4, h5, h6
 { list-style-image: none; }
 #content .reference
 { font-family: "Myriad Pro", Georgia;
-  font-weight: bold;
-  margin-left: .1em;
+  margin-left: .2em;
   opacity: .5;
   -webkit-transition: .5s opacity; }
+#content .reference + .reference
+{ margin-left: 0; }
+#content .reference + .reference:before
+{ content: ", "; }
 #content .reference a span
 { display: none; }
 #content .reference:hover

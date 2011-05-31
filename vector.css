@@ -150,7 +150,14 @@ h1, h2, h3, h4, h5, h6
 #content ul
 { list-style-image: none; }
 #content .reference
-{ margin-left: .2em; }
+{ font-family: "Myriad Pro", Georgia;
+  font-weight: bold;
+  opacity: .5;
+  -webkit-transition: .5s opacity; }
+#content .reference a span
+{ display: none; }
+#content .reference:hover
+{ opacity: 1; }
 
 #content #firstHeading
 { border-bottom: none; }

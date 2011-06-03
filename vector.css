@@ -246,12 +246,14 @@ h1, h2, h3, h4, h5, h6
 { opacity: 1; }
 
 #content .catlinks,
+#content .cmbox,
 #content .fmbox,
 #content .infobox,
 #content .mbox-small,
 #content .navbox,
 #content .ombox,
 #content .template-documentation,
+#content .tmbox,
 #content .tright,
 #content .vertical-navbox,
 #content pre,

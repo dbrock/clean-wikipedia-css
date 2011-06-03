@@ -210,6 +210,12 @@ h1, h2, h3, h4, h5, h6
 { content: ":";
   color: black; }
 
+#content .wikitable
+{ border: none; }
+#content .wikitable th, #content .wikitable td
+{ border: none;
+  padding: .3em .5em; }
+
 #content #toc,
 #content .infobox,
 #content .vertical-navbox

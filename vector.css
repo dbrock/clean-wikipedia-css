@@ -245,16 +245,18 @@ h1, h2, h3, h4, h5, h6
 #content .metadata:hover
 { opacity: 1; }
 
-#content .infobox,
-#content .navbox,
 #content .catlinks,
-#content .mbox-small,
 #content .fmbox,
-#content .fmbox-warning,
+#content .infobox,
+#content .mbox-small,
+#content .navbox,
+#content .ombox,
+#content .template-documentation,
+#content .tright,
 #content .vertical-navbox,
+#content pre,
 #content td.MainPageBG,
 #content td.MainPageBG h2,
-#content .tright,
 #content #mp-topbanner
 { border: none !important; }
 

@@ -295,3 +295,6 @@ h1, h2, h3, h4, h5, h6
 { padding: 1ex 1em;
   border: none;
   background: none; }
+
+#content .infobox.geography tr:first-child th
+{ border-top: none; }

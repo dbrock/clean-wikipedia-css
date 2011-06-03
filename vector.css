@@ -189,13 +189,26 @@ h1, h2, h3, h4, h5, h6
 
 #content .catlinks
 { font-family: "Myriad Pro", Georgia !important;
-  color: white;
+  padding: .8em 1.2em;
   background: white;
   border-radius: 16px;
-  -webkit-box-shadow: 0 0 8px #ddd; }
-#content .catlinks[title=Special:Categories]
-{ font-weight: bold;
+  -webkit-box-shadow: 0 0 8px #ddd;
+  color: white;
+  overflow: hidden; }
+#content .catlinks > * > *
+{ float: left;
+  margin-left: .5em; }
+#content .catlinks > * > span:not(:first-of-type)::before
+{ content: "•";
+  color: gray;
   margin-right: .5em; }
+#content .catlinks a[title="Special:Categories"]
+{ font-weight: bold;
+  margin-right: .5em;
+  border-bottom: none !important; }
+#content .catlinks a[title="Special:Categories"]::after
+{ content: ":";
+  color: black; }
 
 #content #toc,
 #content .infobox,

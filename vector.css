@@ -4,6 +4,7 @@ body
 
 h1, h2, h3, h4, h5, h6, table,
 #mw-head, #mw-panel,
+#content:link,
 #content #bodyContent > p b,
 #content .dablink, #content .rellink
 { font-family: "Myriad Pro", Georgia; }

@@ -298,8 +298,11 @@ h1, h2, h3, h4, h5, h6
 #content .ambox
 { border-top: none;
   border-bottom: none;
-  border-right: none;
-  margin: 0 2em; }
+  border-right: none; }
+
+#content .ambox,
+#content .ombox
+{ margin: 0 2em; }
 
 #content .mbox-small-left
 { margin: .5em 0 1em 0; }

@@ -2,10 +2,9 @@ body
 { background: none;
   font-family: Georgia; }
 
-h1, h2, h3, h4, h5, h6, table,
-#mw-head, #mw-panel,
-#content:link,
-#content #bodyContent > p b,
+#mw-head, #mw-panel, table,
+h1, h2, h3, h4, h5, h6,
+#content :link, #content b,
 #content .dablink, #content .rellink
 { font-family: "Myriad Pro", Georgia; }
 

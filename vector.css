@@ -4,8 +4,11 @@ body
 
 #mw-head, #mw-panel, table,
 h1, h2, h3, h4, h5, h6,
-#content :link, #content b,
-#content .dablink, #content .rellink
+#content #contentSub, #content #contentSub2,
+#content :link, #content b, #content .reference,
+#content .dablink, #content .rellink,
+#content .noprint, #content .vertical-navbox,
+#content .thumb, #content .catlinks
 { font-family: "Myriad Pro", Georgia; }
 
 h3, h4, h5, h6
@@ -149,8 +152,7 @@ h1, h2, h3, h4, h5, h6
 #content ul
 { list-style-image: none; }
 #content .reference
-{ font-family: "Myriad Pro", Georgia;
-  margin-left: .2em;
+{ margin-left: .2em;
   opacity: .5;
   -webkit-transition: .5s opacity; }
 #content .reference + .reference
@@ -163,8 +165,7 @@ h1, h2, h3, h4, h5, h6
 { opacity: 1; }
 
 #content .noprint
-{ font-family: Myriad Pro;
-  margin-left: .2em;
+{ margin-left: .2em;
   opacity: .5;
   -webkit-transition: .5s opacity; }
 #content .noprint:hover
@@ -185,12 +186,10 @@ h1, h2, h3, h4, h5, h6
 
 #content #contentSub, #content #contentSub2
 { color: black;
-  opacity: .3;
-  font-family: "Myriad Pro"; }
+  opacity: .3; }
 
 #content .catlinks
-{ font-family: "Myriad Pro", Georgia !important;
-  padding: .8em 1.2em;
+{ padding: .8em 1.2em;
   margin-top: 3em;
   background: white;
   border-radius: 16px;
@@ -223,7 +222,6 @@ h1, h2, h3, h4, h5, h6
 #content .vertical-navbox
 { margin: 1em -240px 2em 2em !important;
   padding: .8em 1.2em !important;
-  font-family: "Myriad Pro", Georgia !important;
   line-height: 1.4;
   border: none !important;
   background: white !important;
@@ -239,8 +237,7 @@ h1, h2, h3, h4, h5, h6
 #content .tleft
 { margin-left: -240px; }
 #content .thumb
-{ font-family: "Myriad Pro", Georgia;
-  line-height: 1.6; }
+{ line-height: 1.6; }
 
 #content #toc ul
 { margin: 0; }

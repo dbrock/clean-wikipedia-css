@@ -191,6 +191,7 @@ h1, h2, h3, h4, h5, h6
 #content .catlinks
 { font-family: "Myriad Pro", Georgia !important;
   padding: .8em 1.2em;
+  margin-top: 3em;
   background: white;
   border-radius: 16px;
   -webkit-box-shadow: 0 0 8px #ddd;

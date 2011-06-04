@@ -277,6 +277,8 @@ h1, h2, h3, h4, h5, h6
 #content .metadata
 { opacity: .5;
   -webkit-transition: .5s opacity; }
+#content .ambox
+{ opacity: .1; }
 #content .rellink:hover,
 #content .dablink:hover,
 #content .metadata:hover

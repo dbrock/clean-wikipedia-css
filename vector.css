@@ -238,7 +238,9 @@ h1, h2, h3, h4, h5, h6
 { margin: 1.5em 0 !important;
   padding: .8em 1.6em !important; }
 
-#content .tright, #content table[align=right]
+#content .floatright,
+#content .tright,
+#content table[align=right]
 { margin-right: -240px; }
 #content .tleft
 { margin-left: -240px; }
